@@ -1,0 +1,6 @@
+#ファイルの最後の行を返す関数
+def  number_of_characters(name):
+    f = open(name, 'r')
+    s = f.read()
+    f.close()
+    return len(s)
